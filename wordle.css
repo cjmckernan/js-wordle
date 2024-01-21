@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color:#045960;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Center items vertically */
+}
+.img-size {
+    width: 200px;
+}
+.dancing-jesus {
+    width: 300px;
+}
+
+.marquee-color{ 
+    color: #FB48C4;
+}
+h1 {
+    margin-bottom: 20px; /* Add some space below the heading */
+    color: #FB48C4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 75px); 
+    gap: 5px;
+}
+
+.grid-input {
+    width: 100%;
+    padding-top: 75%; /* Set the padding-top to create a square */
+    position: relative;
+    color: #FB48C4;
+    border: 3px solid #FB48C4;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    caret-color: transparent;
+}
