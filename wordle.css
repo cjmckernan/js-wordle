@@ -12,16 +12,19 @@ body {
     margin: 0;
     flex-direction: column; /* Center items vertically */
 }
-.img-size {
+.abstract {
     width: 200px;
+    animation: spin 1.5s linear infinite;
 }
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
 .dancing-jesus {
     width: 300px;
 }
 
-.marquee-color{ 
-    color: #FB48C4;
-}
 h1 {
     margin-bottom: 20px; /* Add some space below the heading */
     color: #FB48C4;
@@ -37,7 +40,7 @@ h1 {
     width: 100%;
     padding-top: 75%; /* Set the padding-top to create a square */
     position: relative;
-    color: #FB48C4;
+    color: white;
     border: 3px solid #FB48C4;
     box-sizing: border-box;
     margin: 0;
