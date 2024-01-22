@@ -50,7 +50,7 @@ function setLoading(isLoading) {
 
     }
 }
-ANN
+
 function wordMatch(){
     //Join the word to match
     const userWord = totalWord.join('')
